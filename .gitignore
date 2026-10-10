@@ -1,0 +1,21 @@
+
+# Secret environment files
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Frontend dependencies and generated files
+node_modules/
+dist/
+build/
+
+# Editor settings
+.vscode/
+.idea/
